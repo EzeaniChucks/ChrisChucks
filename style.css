@@ -43,4 +43,27 @@ form{
 label{
     display: flex;
     flex-direction: column;
+    margin:20px 10px;
+
+}
+select,option{
+    color: black ;
+}
+input,select{
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    width: 95%;
+    padding: 10px ;
+    color: white;
+    background-color: rgb(31, 163, 31);
+    border: none;
+    font-size: 1rem;
 }
